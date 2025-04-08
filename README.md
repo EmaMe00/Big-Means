@@ -1,13 +1,12 @@
 # Big-Means
 
-An algorithm for point assignment clustering for big data.
+An point assignment clustering algorithm for big data.
 
 R. Mussabayev, N. Mladenovic, B. Jarboui e R. Mussabayev, ≪How to Use K-means for Big Data Clustering?≫
 
-This algorithm was invented by R. Mussabayev, N. Mladenovic, B. Jarboui e R. Mussabayev, the article is available at this url:[How to Use K-means for Big Data Clustering?](https://www.sciencedirect.com/science/article/pii/S0031320322007488).
+This algorithm was invented by R. Mussabayev, N. Mladenovic, B. Jarboui e R. Mussabayev, the article is available at this url: [How to Use K-means for Big Data Clustering?](https://www.sciencedirect.com/science/article/pii/S0031320322007488).
 
-
-The algorithm Big-Means use K-Means (and K-Means++ for inizialization) with a several samples of size s, when K-Means find a better solution (at time T) use these poits to inizialize new centroids on a new sample (at time T+1). This process continue while we arrive a convergence criteria.
+The Big-Means algorithm uses K-Means (and K-Means++ for initialization) with several samples of size s. When K-Means finds a better solution (at time T) it uses these points to initialize new centroids on a new sample (at time T+1). This process continues until a convergence criterion is reached.
 
 ## Instruction 
 
